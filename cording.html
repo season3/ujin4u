@@ -26,9 +26,21 @@ ol {
   margin:0;
   padding:20px;
 }
+#grid {
+  display: grid
+  grid-template-columns: 105px 1fr;
+    }
+    #grid ol {
+      padding: 33px;
+    }  
+   #grid #article {
+     padding: 33px;
+    }
+    
   </style>
 </head>
-<body>
+
+ <body>
   <h1><a href ="ujin4u.html"><img src = "로고.jpg" width="60%" height="60"></a></h1>
   <input id="night_day" type="button" value="night" onclick="
      if(document.querySelector('#night_day').value === 'night'){
@@ -41,31 +53,36 @@ ol {
        document.querySelector('#night_day').value = 'night';
      }
    ">
-    <ol>
-      <li><strong><a href ="cording.html" target ="blank" style="color:red" >코딩</strong></a></li>
-      <li><strong><a href ="math.html" target ="blank">수학</strong></a></li>
-      <li><strong><a href ="english.html" target ="blank">영어</strong></a></li>
+  
+      <div id="grid">
+        <ol>
+          <li><strong><a href ="cording.html" target ="blank" style="color:red" >코딩</strong></a></li>
+          <li><strong><a href ="math.html" target ="blank">수학</strong></a></li>
+          <li><strong><a href ="english.html" target ="blank">영어</strong></a></li>
+        </ol>
 
-    </ol>
-    <h2 style = "background-color:coral; color:powerblue; width:40%">  코딩(cording) </h2>
-  <p>
-   <u>4차혁명시대 필수 코딩(소프트웨어) </u><br><br>
-  세계 선진국에서는 이미 오래전부터 코딩을 정규과목으로 편성하여 학생들을 교육하고 있습니다. <br><br>
-  우리나라도 늦은 감이 있지만 내년부터 초등 5,6학년. 중학교 정규교과. 고등학교는 선택과목으로 <br><br>
-  채택되어 코딩교육이 의무화 됩니다.코딩은 학생들에게 교육목표인 <br><br>
-  논리적사고와 창의.융합적 사고력등 생각의 힘을 키우는데 강력하고 휼륭한 도구입니다.<br><br>
-  뿐만아니라 미래 혁신 성장산업으로 인공지능, 3D프린터, 자율주행차, 로봇, 게임, 사물인터넷. 빅데이터 <br><br>
-  등이 중심이 되는 앞으로의 사회에서는 산업분야는 물론 교육, 의료등 각 모든 분야에 최첨단<br><br>
-  기술이 적용되는데 그 기반이 되는 코딩(소프트웨어)이 미래직업의 60%이상 차지한다고 합니다.<br><br>
-  다가오는 4차혁명시대에는 코딩을 이해하고 습득하는 사람과 그렇지 못한 사람의 차이로 양극화현상이 더욱  <br><br>
-  심화됨에 따라 미래사회가 요구하는 코딩을 반드시 습득하여 변화에 대비해야만 하겠습니다.<br><br><br>
+               <div id="article">
+               <h2 style = "background-color:coral; color:powerblue; width:40%">  코딩(cording) </h2>
+               <p>
+               <u>4차혁명시대 필수 코딩(소프트웨어) </u><br><br>
+              세계 선진국에서는 이미 오래전부터 코딩을 정규과목으로 편성하여 학생들을 교육하고 있습니다. <br><br>
+              우리나라도 늦은 감이 있지만 내년부터 초등 5,6학년. 중학교 정규교과. 고등학교는 선택과목으로 <br><br>
+              채택되어 코딩교육이 의무화 됩니다.코딩은 학생들에게 교육목표인 <br><br>
+              논리적사고와 창의.융합적 사고력등 생각의 힘을 키우는데 강력하고 휼륭한 도구입니다.<br><br>
+              뿐만아니라 미래 혁신 성장산업으로 인공지능, 3D프린터, 자율주행차, 로봇, 게임, 사물인터넷. 빅데이터 <br><br>
+              등이 중심이 되는 앞으로의 사회에서는 산업분야는 물론 교육, 의료등 각 모든 분야에 최첨단<br><br>
+              기술이 적용되는데 그 기반이 되는 코딩(소프트웨어)이 미래직업의 60%이상 차지한다고 합니다.<br><br>
+              다가오는 4차혁명시대에는 코딩을 이해하고 습득하는 사람과 그렇지 못한 사람의 차이로 양극화현상이 더욱  <br><br>
+              심화됨에 따라 미래사회가 요구하는 코딩을 반드시 습득하여 변화에 대비해야만 하겠습니다.<br><br><br>
 
-  저희 학원에서는 코딩지도사1급을 보유하고 방과후 교사로 활동 중인 강사님께서 <br><br>
-  <strong><u>초등용 블록형태의 교육용 프로그램인(스크래치, 엔트리)</strong></u>부터 중. 고등용의 다양한<br><br>
-  <strong><u> 프로그래밍 언어(C, 자바, 자바스크립트, 파이썬 등)를 체계적으로 교육</strong></u>하고 있습니다.<br><br>
-  문의할 사항이 있으시면 연락주세요. 성실히 답변해 드리겠습니다^^  좋은하루되세요!!!~~~  466-8882.  01036568849.
-  </p>
- 
+              저희 학원에서는 코딩지도사1급을 보유하고 방과후 교사로 활동 중인 강사님께서 <br><br>
+              <strong><u>초등용 블록형태의 교육용 프로그램인(스크래치, 엔트리)</strong></u>부터 중. 고등용의 다양한<br><br>
+              <strong><u> 프로그래밍 언어(C, 자바, 자바스크립트, 파이썬 등)를 체계적으로 교육</strong></u>하고 있습니다.<br><br>
+              문의할 사항이 있으시면 연락주세요. 성실히 답변해 드리겠습니다^^  좋은하루되세요!!!~~~  466-8882.  01036568849.
+              </p>
+              </div>
+        </div>
+    
   <img src = "코딩3.jpg" width="60%">
     <img src = "슬라이드2.JPG" width="60%">
       <img src = "코딩2.JPG" width="60%">
