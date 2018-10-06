@@ -17,6 +17,7 @@ body {
   margin:0;
 }
 h1 {
+  align:center;
   border-bottom: 2px solid gray;
   margin:0;
   padding:20px;
@@ -27,17 +28,38 @@ ol {
   margin:0;
   padding:20px;
 }
-  </style>
+#grid {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+    }
+#grid ol {
+      padding: 33px;
+    }
+  #grid #article {
+     padding: 33px;
+    }
+    @media(max-width:800px){
+     #grid{
+       display: block;
+     }
+     ol{
+       border-right:none;
+     }
+     h1 {
+       border-bottom:none;
+     }
+   }
 </head>
 <body>
-  <h1><a
-     href ="ujin4u.html"><img src = "로고.jpg" width="80%" height="60"></a></h1>
+  <h1><a href ="ujin4u.html"><img src = "로고.jpg" width="80%" height="60"></a></h1>
+   <div id="grid">
     <ol>
+      <li><a href ="cording.html" target ="blank">학원소개</a></li>
       <li><a href ="cording.html" target ="blank">코딩</a></li>
       <li><a href ="math.html" target ="blank">수학</a></li>
-      <li><a href ="english.html" target ="blank">영어</a></li>
-
+      <li><a href ="english.html" target ="blank" style="color:red">영어</a></li>
     </ol>
+   <div id="article">
   <h2 style = "background-color:coral; color:powerblue; width:50%">  영어 </h2>
   <p>
    <u>유진코딩영어수학학원</u>에 방문해 주신 여러분 환영합니다.<br>
@@ -46,6 +68,8 @@ ol {
   <img src = " 영어1.jpg" width="60%"> <br>초등코딩교재<br><br>
     <img src = " 영어2.jpg" width="60%"> <br>중등코딩교재<br><br>
 </p>
+  </div>
+   </div>
 
 </body>
 </html>
