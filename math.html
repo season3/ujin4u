@@ -16,6 +16,7 @@ body {
   margin:0;
 }
 h1 {
+  align:center;
   border-bottom: 2px solid gray;
   margin:0;
   padding:20px;
@@ -26,6 +27,28 @@ ol {
   margin:0;
   padding:20px;
 }
+#grid {
+  display: grid
+  grid-template-columns: 150px 1fr;
+    }
+#grid ol {
+      padding: 33px;
+    }
+  #grid #article {
+     padding: 33px;
+    }
+    @media(max-width:800px){
+     #grid{
+       display: block;
+     }
+     ol{
+       border-right:none;
+     }
+     h1 {
+       border-bottom:none;
+     }
+   }
+
   </style>
 </head>
 <body>
@@ -57,18 +80,23 @@ ol {
       }
    ">
 
+   <div id="grid">
     <ol>
+       <li><a href ="ujin4u.html" target ="blank">학원소개</a></li>
       <li><a href ="cording.html" target ="blank">코딩</a></li>
       <li><a href ="math.html" target ="blank">수학</a></li>
       <li><a href ="english.html" target ="blank">영어</a></li>
-
     </ol>
+     <div id="artcle">
   <h2 style = "background-color:coral; color:powerblue; width:50%"> 수학 </h2>
   <p>
    <u>유진코딩영어수학학원</u>에 방문해 주신 여러분 환영합니다.<br>
    열심히 하고자 하는 마음만 가져오세요. <strong>성적향상!! 실력향상!! 책임지도!! 보장합니다^^</strong><br>
     필요하시면 자료 다운받아 열공하세용!!!~~~~
   <br><br>
+    </p>
+     </div>
+  </div>
   <img src = " 수1.jpg" width="50%">
     <img src = " 수2.jpg" width="50%">  <img src = " 수3.jpg" width="50%">  <img src = " 수4.jpg" width="50%">
      <img src = " 수5.jpg" width="50%">  <img src = " 수6.jpg" width="50%">  <img src = " 수7.jpg" width="50%">
@@ -80,5 +108,6 @@ ol {
             <img src = " 수20.jpg" width="50%">  <img src = " 수21.jpg" width="50%">   <img src = " 수22.jpg" width="50%">
 </p>
 
+    
 </body>
 </html>
