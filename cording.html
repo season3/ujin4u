@@ -16,7 +16,7 @@ body {
   margin:0;
 }
 h1 {
-  align:center;
+  text-align:center;
   border-bottom: 2px solid gray;
   margin:0;
   padding:20px;
@@ -27,15 +27,21 @@ ol {
   margin:0;
   padding:20px;
 }
+#wrapper {
+  width : 1200px;
+  margin:0 auto;
+  border: 1px solid #000;
+}
 #grid {
   display: grid;
   grid-template-columns: 150px 1fr;
     }
 #grid ol {
-      padding: 33px;
+      font-size: 20px;
+      padding: 40px;
     }
   #grid #article {
-     padding: 33px;
+     padding-left:  120px;
     }
     @media(max-width:800px){
      #grid{
@@ -49,10 +55,12 @@ ol {
      }
    }
   </style>
+
 </head>
 
  <body>
-  <h1><a href ="ujin4u.html"><img src = "로고.jpg" width="60%" height="60"></a></h1>
+   <div id = "wrapper">
+  <h1><a href ="ujin4u.html"><img src = "로고.jpg" width="90%" height="80" ></a></h1>
   <input id="night_day" type="button" value="night" onclick="
      if(document.querySelector('#night_day').value === 'night'){
        document.querySelector('body').style.backgroundColor = 'black';
@@ -67,17 +75,17 @@ ol {
 
       <div id="grid">
         <ol>
-           <li><strong><a href ="ujin4u.html" target ="blank"> 학원소개</strong></a></li>
-          <li><strong><a href ="cording.html" target ="blank" style="color:red" >코딩</strong></a></li>
-          <li><strong><a href ="math.html" target ="blank">수학</strong></a></li>
-          <li><strong><a href ="english.html" target ="blank">영어</strong></a></li>
+           <li><a href ="ujin4u.html" target ="blank" style="text-decoration:none"> 학원소개</a></li>
+          <li><a href ="cording.html" target ="blank" style="color:red" style="text-decoration:none">코딩</a></li>
+          <li><a href ="math.html" target ="blank" style="text-decoration:none">수학</a>
+          <li><a href ="english.html" target ="blank" style="text-decoration:none">영어</a>
         </ol>
 
                <div id="article">
 
-               <h2 style = "background-color:coral; color:powerblue; width:40%">  코딩(cording) </h2>
+               <h2 style = "background-color:coral; color:powerblue; width:80%">  코딩(cording) </h2>
                <p>
-             <iframe width="560" height="315" src="https://www.youtube.com/embed/iubovdnLmqU"
+             <iframe width="750" height="400" src="https://www.youtube.com/embed/iubovdnLmqU"
              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                </p>
                <p>
@@ -95,20 +103,20 @@ ol {
               저희 학원에서는 코딩지도사1급을 보유하고 방과후 교사로 활동 중인 강사님께서 <br><br>
               <strong><u>초등용 블록형태의 교육용 프로그램인(스크래치, 엔트리)</strong></u>부터 중. 고등용의 다양한<br><br>
               <strong><u> 프로그래밍 언어(C, 자바, 자바스크립트, 파이썬 등)를 체계적으로 교육</strong></u>하고 있습니다.<br><br>
-              문의할 사항이 있으시면 연락주세요. 성실히 답변해 드리겠습니다^^  좋은하루되세요!!!~~~  466-8882.  01036568849.
+              문의할 사항이 있으시면 연락주세요. 성실히 답변해 드리겠습니다^^  Have a good time!!!~~~  466-8882.  01036568849.
               </p>
 
     <p>
-  <img src = "코딩3.jpg" width="60%">
-    <img src = "슬라이드2.JPG" width="60%">
-      <img src = "코딩2.JPG" width="60%">
-       <img src = "코딩사진.jpg" width="60%">
-          <img src = "언어1.jpg" width="60%">
-            <img src = "pl.jpg" width="60%">
-              <img src = "홈피.jpg" width="60%">
+  <img src = "코딩3.jpg" width="90%">
+    <img src = "슬라이드2.JPG" width="90%">
+      <img src = "코딩2.JPG" width="90%">
+       <img src = "코딩사진.jpg" width="90%">
+          <img src = "언어1.jpg" width="90%">
+            <img src = "pl.jpg" width="90%">
+              <img src = "홈피.jpg" width="90%">
      </p>
       <p>
-     <iframe width="560" height="315" src="https://www.youtube.com/embed/SESuctdE9vM"
+     <iframe width="750" height="400" src="https://www.youtube.com/embed/SESuctdE9vM"
      frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
    </p>
 
@@ -151,5 +159,6 @@ s0.parentNode.insertBefore(s1,s0);
 </p>
         </div>
      </div>
+   </div>
   </body>
 </html>
