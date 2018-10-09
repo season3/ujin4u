@@ -12,66 +12,68 @@
   gtag('js', new Date());
   gtag('config', 'UA-120514044-1');
 </script>
- <style>
-body {
-  margin:0;
-}
-h1 {
-  font-align:center;
-  border-bottom: 2px solid gray;
-  margin:0;
-  padding:20px;
-}
-ol {
-  border-right: 2px solid gray;
-  width:100px;
-  margin:0;
-  padding:20px;
-}
-#grid {
-  display: grid;
-  grid-template-columns: 150px 1fr;
-    }
-#grid ol {
-      padding: 33px;
-    }
-  #grid #article {
-     padding: 33px;
-    }
-    @media(max-width:800px){
-     #grid{
-       display: block;
-     }
-     ol{
-       border-right:none;
-     }
-     h1 {
-       border-bottom:none;
-     }
-   }
-  </style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <h1><a href ="ujin4u.html"><img src = "로고.jpg" width="80%" height="60"></a></h1>
-   <div id="grid">
-    <ol>
-      <li><a href ="cording.html" target ="blank">학원소개</a></li>
-      <li><a href ="cording.html" target ="blank">코딩</a></li>
-      <li><a href ="math.html" target ="blank">수학</a></li>
-      <li><a href ="english.html" target ="blank" style="color:red">영어</a></li>
+   <div id = "wrapper">
+  <h1>
+    <a href ="ujin4u.html"><img src = "로고.jpg" width="80%" height="60"></a></h1>
+      <div id="grid">
+      <ol>
+      <li><a href ="ujin4u.html" target ="blank" style="text-decoration:none">학원소개</a></li>
+      <li><a href ="cording.html" target ="blank" style="text-decoration:none">코딩</a></li>
+      <li><a href ="math.html" target ="blank" style="text-decoration:none">수학</a></li>
+      <li><a href ="english.html" target ="blank" style="color:red" style="text-decoration:none">영어</a></li>
     </ol>
-   <div id="article">
-  <h2 style = "background-color:coral; color:powerblue; width:50%">  영어 </h2>
-  <p>
-   <u>유진코딩영어수학학원</u>에 방문해 주신 여러분 환영합니다. <br><br>
-      코딩을 영어로 배우는 일석이조!!!~~~~<br><br>
+
+            <div id="article">
+          <h2 style = "background-color:coral; color:powerblue; width:80%">  영어 </h2>
+          <p>
+           <u>유진코딩영어수학학원</u>에 방문해 주신 여러분 환영합니다.<br>
+              코딩을 영어로 배우는 일석이조!!!~~~~
+          <br><br>
+          <img src = " 영어1.jpg" width="80%"> <br>초등코딩교재<br><br>
+            <img src = " 영어2.jpg" width="80%"> <br>중등코딩교재<br><br>
+        </p>
+        <p>
+    <div id="disqus_thread"></div>
+   <script>
+
+   /**
+   *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+   *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+   /*
+   var disqus_config = function () {
+   this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+   this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+   };
+   */
+   (function() { // DON'T EDIT BELOW THIS LINE
+   var d = document, s = d.createElement('script');
+   s.src = 'https://jinho-world.disqus.com/embed.js';
+   s.setAttribute('data-timestamp', +new Date());
+   (d.head || d.body).appendChild(s);
+   })();
+   </script>
+   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
    </p>
    <p>
-  <img src = " 영어1.jpg" width="50%"> <br>초등코딩교재<br><br>
-    <img src = " 영어2.jpg" width="50%"> <br>중등코딩교재<br><br>
-  </p>
-  </div>
-   </div>
-
+     <!--Start of Tawk.to Script-->
+   <script type="text/javascript">
+   var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+   (function(){
+   var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+   s1.async=true;
+   s1.src='https://embed.tawk.to/5b19515c10b99c7b36d4b8f5/default';
+   s1.charset='UTF-8';
+   s1.setAttribute('crossorigin','*');
+   s0.parentNode.insertBefore(s1,s0);
+   })();
+   </script>
+   <!--End of Tawk.to Script-->
+   </p>
+      </div>
+    </div>
+</div>
 </body>
 </html>
